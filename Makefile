@@ -21,6 +21,7 @@ help
 	Version: $(PKG_VERSION)-$(PKG_RELEASE)
 endef
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
+#include ../../luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
